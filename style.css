@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Triangles&family=Rubik+Glitch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body{
+    
+    background-color: black;
+    margin: 0%;
+    padding: 0%;
+    height: 100vh;
+    width: 100%;
+    color:white;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.design, .login{
+    text-align: center;
+    height: 450px;
+    width: 400px;
+}
+.design{
+    background: rgb(7, 7, 20);
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-family: 'Rubik Glitch';
+    letter-spacing: 5px;    
+}
+
+.logo{
+    margin-top: 40px    ;
+}
+
+.login{
+    background: white;
+    border-radius: 0px 10px 10px 0px;
+    color:black;
+}
+.login-form{
+    margin-top: 35px;
+    font-family: 'Ubuntu';
+}
+.login-form span{
+    font-size: larger;
+}
+.form-group{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-group input{
+    width: 60%;
+    height: 20px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    margin-top: 15px;
+}
+.form-group input:focus{
+    outline: none;
+}
+.form-group label{
+    margin-top: 10px;
+    font-size: large;
+}
+.login-form a:hover{
+ color: red;
+}
+.btn{
+    margin-top: 40px;
+    width: 50%;
+    height: 40px;
+    border: none;
+    border-radius: 40px;
+
+}
+.btn:hover{
+    background: black;
+    color: white;
+    transition: 1s;
+}
